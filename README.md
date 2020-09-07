@@ -1,2 +1,2 @@
 # RPi_Relay_Ctls
-Labview project for remotely controling relays via TCP or WebServices
+Labview project for relay remote control via TCP or WebServices
