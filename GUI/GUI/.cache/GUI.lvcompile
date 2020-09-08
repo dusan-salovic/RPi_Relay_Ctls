@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<JobList>
+  <Job OutputType="WebApplication">
+    <CurrentBuildId>
+      <ComponentSubtypeIdentifier>WebApplication</ComponentSubtypeIdentifier>
+      <BuildId>2893b525-ad7a-47d0-9fcd-c07e296ce8b5</BuildId>
+    </CurrentBuildId>
+    <RootBuildId>
+      <ComponentSubtypeIdentifier>WebApplication</ComponentSubtypeIdentifier>
+      <BuildId>2893b525-ad7a-47d0-9fcd-c07e296ce8b5</BuildId>
+    </RootBuildId>
+    <OutputPath>Builds\WebApp_Web Server</OutputPath>
+    <BuildName>WebApp</BuildName>
+    <State>Success</State>
+    <LastTotalTime>00:00:03</LastTotalTime>
+    <StartTime>2020-09-02T08:43:33.3909147Z</StartTime>
+    <HasChild>False</HasChild>
+    <IsStale>True</IsStale>
+    <QualifiedName></QualifiedName>
+    <HintEnvoy></HintEnvoy>
+  </Job>
+  <Job OutputType="WebApplication">
+    <CurrentBuildId>
+      <ComponentSubtypeIdentifier>WebApplication</ComponentSubtypeIdentifier>
+      <BuildId>bfd1cabf-d495-470d-a464-d6a738b85686</BuildId>
+    </CurrentBuildId>
+    <RootBuildId>
+      <ComponentSubtypeIdentifier>WebApplication</ComponentSubtypeIdentifier>
+      <BuildId>bfd1cabf-d495-470d-a464-d6a738b85686</BuildId>
+    </RootBuildId>
+    <OutputPath>Builds\WebApp_Web Server</OutputPath>
+    <BuildName>WebApp</BuildName>
+    <State>Failed</State>
+    <LastTotalTime>00:00:00</LastTotalTime>
+    <StartTime>2020-09-02T09:03:06.0859085Z</StartTime>
+    <HasChild>False</HasChild>
+    <IsStale>True</IsStale>
+    <QualifiedName></QualifiedName>
+    <HintEnvoy></HintEnvoy>
+  </Job>
+  <Job OutputType="WebApplication">
+    <CurrentBuildId>
+      <ComponentSubtypeIdentifier>WebApplication</ComponentSubtypeIdentifier>
+      <BuildId>87c0864f-1fc5-4cbd-83b8-41a1fb1ba290</BuildId>
+    </CurrentBuildId>
+    <RootBuildId>
+      <ComponentSubtypeIdentifier>WebApplication</ComponentSubtypeIdentifier>
+      <BuildId>87c0864f-1fc5-4cbd-83b8-41a1fb1ba290</BuildId>
+    </RootBuildId>
+    <OutputPath>Builds\WebApp_Web Server</OutputPath>
+    <BuildName>WebApp</BuildName>
+    <State>Success</State>
+    <LastTotalTime>00:00:01</LastTotalTime>
+    <StartTime>2020-09-02T09:03:15.6107619Z</StartTime>
+    <HasChild>False</HasChild>
+    <IsStale>False</IsStale>
+    <QualifiedName>::Web Server::Interactive::WebApp.gcomp</QualifiedName>
+    <HintEnvoy>::Web Server::Interactive::WebApp.gcomp</HintEnvoy>
+  </Job>
+</JobList>

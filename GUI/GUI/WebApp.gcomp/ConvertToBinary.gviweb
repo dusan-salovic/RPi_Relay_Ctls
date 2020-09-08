@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SourceFile Checksum="F9E91111E4862AEE9BC62BC67299C885CED3CCD8F17C59EA2B6A561FD8D8A4ABD2F51C02B3E4125012C74C8DE44F7719B5F4879B38948FDCCAD570E5FC67003D" Timestamp="1D6810417E0FA2F" xmlns="http://www.ni.com/PlatformFramework">
+	<SourceModelFeatureSet>
+		<ParsableNamespace AssemblyFileVersion="8.1.0.50414" FeatureSetName="LabVIEW Controls" Name="http://www.ni.com/Controls.LabVIEW.Design" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="8.1.0.50414" FeatureSetName="LabVIEW Virtual Instrument" Name="http://www.ni.com/LabVIEW.VI" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="8.1.0.50414" FeatureSetName="Common language components" Name="http://www.ni.com/MocCommon" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="8.1.0.50414" FeatureSetName="Web Module: WebVI" Name="http://www.ni.com/NationalInstruments.LabVIEW.HtmlVI" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="8.1.0.50414" FeatureSetName="Editor" Name="http://www.ni.com/PanelCommon" OldestCompatibleVersion="6.1.0.0" Version="6.1.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="8.1.0.50414" FeatureSetName="Editor" Name="http://www.ni.com/PlatformFramework" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
+		<ApplicationVersionInfo Build="8.1.0.50414" Name="LabVIEW NXG" Version="5.0.0" />
+	</SourceModelFeatureSet>
+	<VirtualInstrument Id="2d4f70a51a564b1888d1526977597f1b" OverridingModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.HTMLVirtualInstrument" xmlns="http://www.ni.com/LabVIEW.VI">
+		<p.UserDescription xmlns="http://www.ni.com/PlatformFramework">&lt;p&gt;SubWebVI for conversion from boolean array to binary array.&lt;/p&gt;</p.UserDescription>
+		<Icon Id="19219269aa04a05aef05a3ffe05ccea" ListViewIconCrop="0 0 30 30" xmlns="http://www.ni.com/PlatformFramework">
+			<IconPanel Height="[float]30" Id="29a41aae7ba844c28dc55f43fa131e3b" Left="[float]0" PanelSizeMode="Resize" Top="[float]0" Width="[float]30">
+				<IconTemplate ClipMargin="[SMThickness]3,3,3,3" Height="[float]30" Id="399720cb755c437596bbad4e4ce6c7c4" Left="[float]0" TemplateName="[string]Gray" Top="[float]0" Width="[float]30">
+					<Rectangle Fill="[SMSolidColorBrush]#ff727272" Id="cee78e011c764853b7cf77e24cfbe615" IsHitTestVisible="[bool]False" Left="[float]0" RadiusX="[float]4" RadiusY="[float]4" Top="[float]0" />
+					<Rectangle Fill="[SMSolidColorBrush]#ffe5e5e5" Id="ad965697789c4d3b98ff1e54d713a5c4" IsHitTestVisible="[bool]False" Left="[float]0" Margin="[SMThickness]1,1,1,1" RadiusX="[float]2.5" RadiusY="[float]2.5" Stroke="[SMSolidColorBrush]#fff2f2f2" Top="[float]0" />
+					<FileNameText Attached="[bool]False" Foreground="[SMColor]#ffee1c25" Height="[float]26" Id="7b5f4fd3f3ce43f391c5d3504b9192eb" Left="[float]0" Margin="[SMThickness]2,2,2,2" SizeMode="[TextModelSizeMode]AutoFont" Text="[string]Convert&#xD;&#xA;To&#xD;&#xA;Binary" TextAlignment="[TextAlignment]Center" TextWrapping="[TextWrapping]Wrap" Top="[float]0" VerticalScrollBarVisibility="[ScrollBarVisibility]Hidden" Width="[float]26">
+						<FontSetting FontFamily="Segoe UI" FontSize="6" Id="b9d05f4ac20b47fa839a556c3ab6427b" />
+					</FileNameText>
+				</IconTemplate>
+			</IconPanel>
+		</Icon>
+		<ConnectorPane Height="30" Id="f6a61d44a4484f8198228096fba16b1d" ListViewHeight="70" ListViewWidth="150" Width="30" xmlns="http://www.ni.com/PlatformFramework">
+			<ConnectorPaneTerminal />
+			<ConnectorPaneTerminal Hotspot="0 15" ListViewHotspot="0 35" Parameter="de97d84ca3ce4cfbb487672abca15ed4" />
+			<ConnectorPaneTerminal Hotspot="0 25" />
+			<ConnectorPaneTerminal Hotspot="15 0" />
+			<ConnectorPaneTerminal Hotspot="30 5" />
+			<ConnectorPaneTerminal Hotspot="30 15" ListViewHotspot="150 50" Parameter="1c309591786e496b8e6f64b825a67b14" />
+			<ConnectorPaneTerminal Hotspot="30 25" />
+			<ConnectorPaneTerminal Hotspot="15 30" />
+		</ConnectorPane>
+		<DiagramUnplacedItems Id="ede1e43e9088440c86294864cb5fc645" xmlns="http://www.ni.com/MocCommon" />
+		<FrontPanelUnplacedItems Id="52fc8bca22644549bd5dfe6b4918ae11" Left="[float]0" PanelSizeMode="Fixed" Top="[float]0" />
+		<BlockDiagram Id="85e5131bd8f6471591bd462d32b1ee47">
+			<Wire Id="b5e7a6a0d29b4fbabd00319e6dfb18d9" Joints="N(e85b37662b33483d9b8e61be1783c40d:Value)|(269,190) N(9c65cc21bfe44f6397ea9c3c9d3987d5:o0)|(348,190)" xmlns="http://www.ni.com/PlatformFramework" />
+			<DataAccessor Bounds="229 185 40 15" DataItem="de97d84ca3ce4cfbb487672abca15ed4" Id="e85b37662b33483d9b8e61be1783c40d" Label="91f14e92b5804349b18ce32987dbdd1d" xmlns="http://www.ni.com/MocCommon">
+				<Terminal DataType="Boolean[]" Direction="Output" Hotspot="40 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
+			</DataAccessor>
+			<NodeLabel AttachedTo="e85b37662b33483d9b8e61be1783c40d" Bounds="229 168 76 14" Id="91f14e92b5804349b18ce32987dbdd1d" xmlns="http://www.ni.com/PlatformFramework">
+				<p.Text>RelayControls</p.Text>
+			</NodeLabel>
+			<ForLoop Bounds="353 103 286 191" DiagramId="bef55506070e4cdca7fda351acd1a19d" Id="90e7033e6aa2444c8302cea77810592d">
+				<LoopIteration Bounds="5 160 15 15" Id="fff09c98fda949a5835a2a340aad95ae" />
+				<BooleanTo0Or1 Bounds="120 80 30 10" Id="43e6de2ceeab45d38291b87ac40e74b3" Label="b275d0f9f6da47b6af2f58ab0f548623" />
+				<Wire Id="a8701a6708244ceb85d1e4fdb9fc470a" Joints="N(9c65cc21bfe44f6397ea9c3c9d3987d5:i0)|(6,85) N(43e6de2ceeab45d38291b87ac40e74b3:Boolean)|(123,85)" xmlns="http://www.ni.com/PlatformFramework" />
+				<Wire Id="77f27503cd02454c9622e941680b4c09" Joints="N(43e6de2ceeab45d38291b87ac40e74b3:0, 1)|(150,85) N(73f5284b6c7d469898ba67010676c3b3:i0)|(274,85)" xmlns="http://www.ni.com/PlatformFramework" />
+				<NodeLabel AttachedTo="43e6de2ceeab45d38291b87ac40e74b3" Bounds="120 63 104 14" Id="b275d0f9f6da47b6af2f58ab0f548623" IsReadOnly="True" xmlns="http://www.ni.com/PlatformFramework">
+					<p.Text>Boolean to Integer</p.Text>
+				</NodeLabel>
+				<LoopCount Bounds="1 1 15 15" Docking="Left" Id="6e2f0bd7dc864a7e8b879b52705149e4" Terminals="90e7033e6aa2444c8302cea77810592d, bef55506070e4cdca7fda351acd1a19d" />
+				<LoopTunnel AutoIndex="True" Bounds="-5 82 13 10" Docking="Left" Id="9c65cc21bfe44f6397ea9c3c9d3987d5" Terminals="o0=b5e7a6a0d29b4fbabd00319e6dfb18d9, i0=a8701a6708244ceb85d1e4fdb9fc470a" TunnelMode="0" />
+				<LoopTunnel AutoIndex="True" Bounds="276 82 13 10" Docking="Right" Id="73f5284b6c7d469898ba67010676c3b3" Terminals="o0=aff5c68edbd5459ebf81e04fcb5a8b98, i0=77f27503cd02454c9622e941680b4c09" TunnelMode="0" />
+			</ForLoop>
+			<DataAccessor Bounds="690 185 40 15" DataItem="1c309591786e496b8e6f64b825a67b14" Id="b7bade73736b490fa2b07c3d04187fa7" Label="2204acb839ce4529afd27ea744c52565" xmlns="http://www.ni.com/MocCommon">
+				<Terminal DataType="Int16[]" Direction="Input" Hotspot="3 5" Id="Value" xmlns="http://www.ni.com/PlatformFramework" />
+			</DataAccessor>
+			<NodeLabel AttachedTo="b7bade73736b490fa2b07c3d04187fa7" Bounds="690 168 112 14" Id="2204acb839ce4529afd27ea744c52565" xmlns="http://www.ni.com/PlatformFramework">
+				<p.Text>BinaryRelayControls</p.Text>
+			</NodeLabel>
+			<Wire Id="aff5c68edbd5459ebf81e04fcb5a8b98" Joints="N(73f5284b6c7d469898ba67010676c3b3:o0)|(642,190) N(b7bade73736b490fa2b07c3d04187fa7:Value)|(693,190)" xmlns="http://www.ni.com/PlatformFramework" />
+		</BlockDiagram>
+		<HtmlFrontPanel Height="[float]768" HtmlPanel="[bool]False" Id="2b2cf96d860f4345b1ceee0213d6dbf1" Left="[float]0" PanelSizeMode="Fixed" Top="[float]0" Width="[float]1024" xmlns="http://www.ni.com/NationalInstruments.LabVIEW.HtmlVI">
+			<ArrayViewer ArrayElement="[UIModel]be1a28dd396d4af7b342f2354b40b0da" BaseName="[string]Array" Columns="[int]8" Dimensions="[int]1" Height="[float]84" Id="e9254ea2b076464583d7521702f0fd5c" IndexEditorWidth="[double]53" IndexVisibility="[Visibility]Visible" IsFixedSize="[bool]False" Label="[UIModel]bc641611effb465c9871d5859ea1df67" Left="[float]100" Orientation="[SMOrientation]Horizontal" Rows="[int]1" TabIndex="[int]0" Top="[float]116" Value="{DataItemBinding Id=de97d84ca3ce4cfbb487672abca15ed4}" Width="[float]413" xmlns="http://www.ni.com/PanelCommon">
+				<p.DefaultElementValue>False</p.DefaultElementValue>
+				<Switch BaseName="[string]Switch" FalseContent="[string]Off" Height="[float]72" Id="be1a28dd396d4af7b342f2354b40b0da" Label="[UIModel]65bc506d3d33403b895db48b1be78b73" Orientation="[SMOrientation]Vertical" Shape="[SwitchShape]Slider" TabIndex="[int]0" TrueContent="[string]On" Width="[float]40" xmlns="http://www.ni.com/Controls.LabVIEW.Design">
+					<Label Height="[float]16" Id="65bc506d3d33403b895db48b1be78b73" IsVisualChild="[bool]False" LabelOwner="[UIModel]be1a28dd396d4af7b342f2354b40b0da" Left="[float]104" Text="[string]Switch" Top="[float]-14" Width="[float]35" xmlns="http://www.ni.com/PanelCommon" />
+				</Switch>
+			</ArrayViewer>
+			<Label Height="[float]16" Id="bc641611effb465c9871d5859ea1df67" LabelOwner="[UIModel]e9254ea2b076464583d7521702f0fd5c" Left="[float]100" Text="[string]RelayControls" Top="[float]96" Width="[float]73" xmlns="http://www.ni.com/PanelCommon" />
+			<ArrayViewer ArrayElement="[UIModel]92f3ff23aa7540ec956aa462d1fa7155" BaseName="[string]Array" Columns="[int]8" Dimensions="[int]1" Height="[float]36" Id="cd9d1948547345f5ac78091962275bb5" IndexVisibility="[Visibility]Collapsed" IsFixedSize="[bool]False" Label="[UIModel]91eb4f1371d347c596acf5d7ae4666b5" Left="[float]148" Orientation="[SMOrientation]Horizontal" Rows="[int]1" TabIndex="[int]1" Top="[float]244" Value="{DataItemBinding Id=1c309591786e496b8e6f64b825a67b14}" VerticalScrollBarVisibility="[ScrollBarVisibility]Visible" Width="[float]623" xmlns="http://www.ni.com/PanelCommon">
+				<p.DefaultElementValue>0</p.DefaultElementValue>
+				<NumericText BaseName="[string]Numeric" Height="[float]23" Id="92f3ff23aa7540ec956aa462d1fa7155" Interval="[short]1" IsReadOnly="[bool]True" RadixBase="[RadixBase]Decimal" ValueFormatter="[string]Decimal, Uppercase, Signed" ValueType="[Type]Int16" Width="[float]74" xmlns="http://www.ni.com/Controls.LabVIEW.Design" />
+			</ArrayViewer>
+			<Label Height="[float]16" Id="91eb4f1371d347c596acf5d7ae4666b5" LabelOwner="[UIModel]cd9d1948547345f5ac78091962275bb5" Left="[float]148" Text="[string]BinaryRelayControls" Top="[float]224" Width="[float]106" xmlns="http://www.ni.com/PanelCommon" />
+		</HtmlFrontPanel>
+		<DataItem AdaptToDiagramType="True" CallDirection="Input" CallIndex="0" DataType="Boolean[]" Id="de97d84ca3ce4cfbb487672abca15ed4" Name="RelayControls" xmlns="http://www.ni.com/MocCommon">
+			<p.DefaultValue>null</p.DefaultValue>
+		</DataItem>
+		<DataItem AdaptToDiagramType="True" CallDirection="Output" CallIndex="0" DataType="Int16[]" Id="1c309591786e496b8e6f64b825a67b14" Name="BinaryRelayControls" xmlns="http://www.ni.com/MocCommon">
+			<p.DefaultValue>null</p.DefaultValue>
+		</DataItem>
+	</VirtualInstrument>
+</SourceFile>
